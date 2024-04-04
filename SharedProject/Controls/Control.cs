@@ -128,7 +128,7 @@ namespace SharedProject.Controls
         #region Abstract Methods
 
         public abstract void Update(GameTime gameTime);
-        public abstract void Draw(GameTime gameTime);
+        public abstract void Draw(SpriteBatch spriteBatch);
         public abstract void HandleInput(PlayerIndex playerIndex);
 
         #endregion
