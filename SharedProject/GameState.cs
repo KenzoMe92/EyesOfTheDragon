@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Content;
 
 namespace SharedProject
 {
@@ -11,7 +12,7 @@ namespace SharedProject
 
         private readonly List<GameComponent> childComponents;
 
-        protected SpriteBatch SpriteBatch { get; private set; }
+        protected SpriteBatch SpriteBatch { get; set; }
 
         public List<GameComponent> Components { get { return childComponents; } }
 

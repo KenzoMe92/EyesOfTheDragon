@@ -9,13 +9,11 @@
     <Import_RootNamespace>SharedProject</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Content\" />
-  </ItemGroup>
-  <ItemGroup>
     <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
     <None Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GameScreens\TitleState.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GameState.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GameStateManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Settings.cs" />
