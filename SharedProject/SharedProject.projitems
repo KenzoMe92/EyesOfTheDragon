@@ -19,4 +19,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Settings.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Xin.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Content\Backgrounds\titlescreen.png" />
+  </ItemGroup>
 </Project>
